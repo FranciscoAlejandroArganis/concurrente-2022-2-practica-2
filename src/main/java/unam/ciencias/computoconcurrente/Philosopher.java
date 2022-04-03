@@ -30,7 +30,7 @@ public class Philosopher implements Runnable {
      * Ciclo de la ejecución del hilo correspondiente a este filósofo
      * El ciclo consiste de 4 etapas:
      * 1. El filósofo piensa hasta que le da hambre
-     * 2. El filósofo hambriente espera hasta que puede puede tomar sus dos palillos
+     * 2. El filósofo hambriento espera hasta que puede tomar sus dos palillos
      * 3. El filósofo come
      * 4. El filósofo libera los palillos cuando termina de comer
      */

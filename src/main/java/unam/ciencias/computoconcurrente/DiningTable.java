@@ -1,6 +1,8 @@
 package unam.ciencias.computoconcurrente;
 
-import java.util.concurrent.Semaphore;
+/* Dejar descomentada una de las dos sigueintes líneas */
+import unam.ciencias.computoconcurrente.synch.Semaphore; // Nuestra implementación de semáforo
+//import java.util.concurrent.Semaphore; // Semáforo de Java
 
 /**
  * Clase que representa la mesa donde se sientan a comer los filósofos
